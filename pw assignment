@@ -1,0 +1,56 @@
+Assignment Questions Statistics Basic-2 Assignment Data Science Masters
+ Q1. What are the three measures of central tendency? 
+Mean median and mode are the three measures of central tendencies
+Q2. What is the difference between the mean, median, and mode? How are they used to measure the central tendency of a dataset? 
+The mean is the arithmetic average of all the data points in a dataset. It is calculated by summing up all the values and dividing by the total number of data points.
+The median is the middle value of a dataset when the values are arranged in ascending or descending order.
+The mode is the value that occurs most frequently in a dataset.
+Q3. Measure the three measures of central tendency for the given height data:  [178,177,176,177,178.2,178,175,179,180,175,178.9,176.2,177,172.5,178,176.5] 
+Mean ≈ 177.27
+•	Median = 177.5
+•	Mode = 178
+
+
+Q4. Find the standard deviation for the given data: [178,177,176,177,178.2,178,175,179,180,175,178.9,176.2,177,172.5,178,176.5]
+1.7845.
+ Q5. How are measures of dispersion such as range, variance, and standard deviation used to describe the spread of a dataset? Provide an example. 
+Range: The range is the simplest measure of dispersion and is calculated as the difference between the maximum and minimum values in the dataset. Range = Maximum value - Minimum value
+Variance: The variance measures how far each data point is from the mean of the dataset.
+Standard Deviation: The standard deviation is the square root of the variance and provides a measure of dispersion in the original unit of the data
+Q6. What is a Venn diagram? 
+A Venn diagram is a visual representation used to depict the relationships and similarities between different sets or groups of data.
+Q7. For the two given sets A = (2,3,4,5,6,7) & B = (0,2,6,8,10). Find: (i) A B (ii) A ⋃ B 
+A ∩ B = {2, 6}
+A ⋃ B = {0, 2, 3, 4, 5, 6, 7, 8, 10}
+
+Q8. What do you understand about skewness in data? 
+Skewness in data refers to the measure of asymmetry or lack of symmetry in the distribution of data points in a dataset. In a symmetrical distribution, the data points are evenly distributed on both sides of the central point (mean, median, or mode), resulting in a balanced distribution
+Q9. If a data is right skewed then what will be the position of median with respect to mean? 
+If a data set is right-skewed, the position of the median will be to the left of the mean.
+
+Q10. Explain the difference between covariance and correlation. How are these measures used in statistical analysis?
+ Q11. What is the formula for calculating the sample mean? Provide an example calculation for a dataset. 
+Sample Mean (x̄) = (Sum of all data points) / (Total number of data points)
+Dataset: [10, 15, 20, 25, 30]
+Sum = 10 + 15 + 20 + 25 + 30 = 100
+N=5
+Sample Mean (x̄) = Sum / n 
+Sample Mean (x̄) = 100 / 5 
+Sample Mean (x̄) = 20
+
+Q12. For a normal distribution data what is the relationship between its measure of central tendency? 
+In a normal distribution, the relationship between its measures of central tendency (mean, median, and mode) is that they are all equal. In other words, the mean, median, and mode of a normal distribution have the same value
+Q13. How is covariance different from correlation?
+ Q14. How do outliers affect measures of central tendency and dispersion? Provide an example. 
+Outliers can significantly impact measures of central tendency and dispersion in a dataset. An outlier is an extreme value that is much larger or smaller than the majority of the data points in the dataset. The presence of outliers can distort the typical characteristics of the data and affect the calculations of central tendency (mean, median, mode) and measures of dispersion (variance, standard deviation, range).
+Consider the following dataset representing the ages of students in a class: [12, 13, 14, 15, 16, 17, 18, 19, 20, 45]
+
+•	Mean: The mean is sensitive to outliers. In this example, adding the outlier (45) significantly affects the mean: Mean without outlier: (12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20) / 9 = 16 Mean with outlier: (12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 45) / 10 = 18
+•	Median: The median is less affected by outliers. In this example, the median remains the same even with the outlier: Median: 16 (the middle value of the sorted dataset)
+•	Mode: The mode is not impacted by outliers since it represents the most frequently occurring value. In this example, the mode remains the same: Mode: No mode (all values appear only once)
+Dispersion:
+•	Variance and Standard Deviation: Both variance and standard deviation are influenced by outliers. The squared differences between each data point and the mean are larger when there are extreme values like the outlier, increasing the variance and standard deviation.
+•	Range: The range is influenced by outliers as it is simply the difference between the maximum and minimum values. In this example, the range is much larger due to the presence of the outlier: Range without outlier: 20 - 12 = 8 Range with outlier: 45 - 12 = 33
+•	
+
+Note:  Create your assignment in Jupyter notebook and upload it in GitHub & share that github repository link through your dashboard. Make sure the repository is public.
